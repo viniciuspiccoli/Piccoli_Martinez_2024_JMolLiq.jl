@@ -81,3 +81,5 @@ This repository contains supporting information and code for the paper _"Role of
   <img src="Figure_All_pref_sol-SI.png" alt="title" width="700"/>
   <figcaption style="text-align: justify;"> Figure S8: Preferential solvation parameters for all ionic liquid mixtures at various concentrations. The plot illustrates that from 0.5 to 1.5 mol L⁻¹, the presence of [BMIM]⁺ results in greater IL accumulation around the protein. However, at higher concentrations (>1.5 mol L⁻¹), [EMIM]⁺ shows less preferential exclusion. As the concentration increases, the preferential solvation parameter generally becomes negative, indicating a shift in solvation dynamics. </figcaption>
 </figure>
+
+
