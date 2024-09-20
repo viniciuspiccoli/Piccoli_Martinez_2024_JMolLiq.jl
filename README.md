@@ -25,6 +25,15 @@ This repository contains supporting information and code for the paper _"Role of
 ---
 
 
+## Detailed information regarding system building
+
+
+
+
+## Post-NPT equilibration densities
+
+
+
 ## Minimum-distance distribution funtions and Kirkwood-Buff Integrals for other anions combinations
 
 
