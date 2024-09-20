@@ -22,8 +22,8 @@ This repository contains supporting information and code for the paper _"Role of
 
 ## Minimum-distance distribution funtions and Kirkwood-Buff Integrals for other anions combinations
 
-![My Image](ClBF4MDDFS_KBIs.png)  
-**Figure 1:** This is the caption that describes the image. It should be justified.  
+![Alt text](ClBF4MDDFS_KBIs.png)  
+
 
 
 
