@@ -23,6 +23,9 @@ This repository contains supporting information and code for the paper _"Role of
 ## Minimum-distance distribution funtions and Kirkwood-Buff Integrals for other anions combinations
 
 
+
+![Alt text](./Cl_BF4_MDDFS_KBIs.png)
+
 <figure style="text-align: center;">
   <img src="Cl_BF4_MDDFS_KBIs.png" alt="title" width="500"/>
   <figcaption style="text-align: justify;"> Figure S1 - Comparison of Minimum-Distance Distribution Functions (MDDFs) and Kirkwood-Buff (KB) integrals for ionic liquid systems containing [EMIM]+ and [BMIM]+ cations with various anions. Panels A and D compare the cations [EMIM]+ and [BMIM]+; panels B and E compare [BF4]- anions paired with [EMIM]+ and [BMIM]+; and panels C and F compare [Cl]- anions paired with [EMIM]+ and [BMIM]+. </figcaption>
