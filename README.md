@@ -17,3 +17,5 @@ Institute of Chemistry, Universidade Estadual de Campinas (UNICAMP).
 13083-970, Campinas, SP. Brazil  
 [Group Website](http://m3g.iqm.unicamp.br)
 
+
+Documentation at [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2024_JMolLiq.jl/dev/)
