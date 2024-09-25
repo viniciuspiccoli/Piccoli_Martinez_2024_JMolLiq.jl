@@ -32,8 +32,8 @@ makedocs(
     format=Documenter.HTML(;
         mathengine=Documenter.MathJax3(),
         size_threshold_ignore=[
-            "$(@__DIR__)/src/SystemsData.md",
-            "$(@__DIR__)/src/SupportingCurves.md",
+            "$(@__DIR__)/SystemsData.md",
+            "$(@__DIR__)/SupportingCurves.md",
         ],
     ),
     pages = [
