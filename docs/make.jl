@@ -13,8 +13,8 @@ import CRC32
 
 # build html pages of the pluto notebooks, only if the jl was updated
 nbs = [
-    "$(@__DIR__)/src/pluto_notebooks/SystemsData.jl",
-    "$(@__DIR__)/src/pluto_notebooks/SupportingCurves.jl",
+    "$(@__DIR__)/src/plutonotebooks/SystemsData.jl",
+    "$(@__DIR__)/src/plutonotebooks/SupportingCurves.jl",
 ]
 
 for nb in nbs
