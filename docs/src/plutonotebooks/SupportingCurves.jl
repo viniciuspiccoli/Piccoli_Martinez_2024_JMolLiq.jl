@@ -6,12 +6,12 @@ using InteractiveUtils
 
 # ╔═╡ 610696f3-76c7-4be5-a105-3ea22b3f212c
 begin
-	import Pkg
-	Pkg.activate(".")
-	Pkg.instantiate()
-	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables
-	import Images
-	TableOfContents()
+	import Pkg;
+	Pkg.activate(".");
+	Pkg.instantiate();
+	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables;
+	import Images;
+	TableOfContents();
 end
 
 # ╔═╡ ebffc62c-c33c-45ad-921e-e65b87b6d889
@@ -114,13 +114,6 @@ md"
 
 "
 
-# ╔═╡ 9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
-md"""
-## Notes:
-
-	This notebook contains data for creating the initial boxes and also the post-NPT concentrations of all components of the systems. We use the packages MolSimToolkit, PDBTools, DAtaFrames and CSV from Julia Lang. All the data is stored in CSV files and the Env contains a reproducible way to get the data by using the same versions apllied here.
-"""
-
 # ╔═╡ Cell order:
 # ╟─610696f3-76c7-4be5-a105-3ea22b3f212c
 # ╟─ebffc62c-c33c-45ad-921e-e65b87b6d889
@@ -141,4 +134,3 @@ md"""
 # ╟─8bd97810-6a42-4db2-9d11-8dc5a146ef13
 # ╟─c4bbd1b7-8af7-416f-a064-c699aca58ca5
 # ╟─d5375fc0-f4c1-4686-9e76-ca0bed0bdc35
-# ╟─9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
