@@ -8,6 +8,7 @@ using InteractiveUtils
 begin
 	import Pkg
 	Pkg.activate(".")
+	Pkg.instantiate()
 	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables
 	import Images
 	TableOfContents()
@@ -33,7 +34,7 @@ end
 # ╔═╡ 0d4bbdfc-8153-4e70-9182-aeeec066f342
 md"""
 
-**Table S** - Data of the bulk concentration of the components in the 20 different replicates for each ionic liquid (IL) concentration simulation. Values represent the mean value in the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the intended initial concentration for system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially started with a length of 95 Å. The table sequentially lists the number of cations (**Cation**), the first anion (**Anion 1**), the second anion (**Anion 2**), and water molecules (**Water**). For instance, in the system [EMIMCl]+[EMIMDCA], [Cl] is the anion 1, and [DCA] is the anion 2. Here, the charges and underscores are omitted to simplify the representation.
+**Table S2** - Data of the bulk concentration of the components in the 20 different replicates for each ionic liquid (IL) concentration simulation. Values represent the mean value in the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the intended initial concentration for system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially started with a length of 95 Å. The table sequentially lists the number of cations (**Cation**), the first anion (**Anion 1**), the second anion (**Anion 2**), and water molecules (**Water**). For instance, in the system [EMIMCl]+[EMIMDCA], [Cl] is the anion 1, and [DCA] is the anion 2. Here, the charges and underscores are omitted to simplify the representation.
 
 """
 
