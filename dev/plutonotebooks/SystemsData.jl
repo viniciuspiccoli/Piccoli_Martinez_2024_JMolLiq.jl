@@ -6,12 +6,12 @@ using InteractiveUtils
 
 # ╔═╡ 610696f3-76c7-4be5-a105-3ea22b3f212c
 begin
-	import Pkg
-	Pkg.activate(".")
-	Pkg.instantiate()
-	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables
-	import Images
-	TableOfContents()
+	import Pkg;
+	Pkg.activate(".");
+	Pkg.instantiate();
+	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables;
+	import Images;
+	TableOfContents();
 end
 
 # ╔═╡ 9ad736e2-779d-11ef-2680-fbb35aa93397
