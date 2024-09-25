@@ -13,8 +13,8 @@ import CRC32
 
 # build html pages of the pluto notebooks, only if the jl was updated
 nbs = [
-    "$(@__DIR__)/src/pluto_notebooks/Systems_data.jl",
-    "$(@__DIR__)/src/pluto_notebooks/Supporting_curves.jl",
+    "$(@__DIR__)/src/pluto_notebooks/SystemsData.jl",
+    "$(@__DIR__)/src/pluto_notebooks/SupportingCurves.jl",
 ]
 
 for nb in nbs
@@ -32,14 +32,14 @@ makedocs(
     format=Documenter.HTML(;
         mathengine=Documenter.MathJax3(),
         size_threshold_ignore=[
-            "$(@__DIR__)/Systems_data.md",
-            "$(@__DIR__)/Supporting_curves.md",
+            "$(@__DIR__)/SystemsData.md",
+            "$(@__DIR__)/SupportingCurves.md",
         ],
     ),
     pages = [
         "Home" => "index.md",
-        "Complementary data" => "Systems_data.md",
-        "Supporting MDDFs and KBIs" => "Supporting_curves.md",
+        "Complementary data" => "SystemsData.md",
+        "Supporting MDDFs and KBIs" => "SupportingCurves.md",
     ],
 )
 
