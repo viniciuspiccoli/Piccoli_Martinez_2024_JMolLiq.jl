@@ -1,4 +1,4 @@
-# Supporting Information for: Role of Imidazolium Cation Hydrophobicity in Ubiquitin Solvation by Aqueous Ionic Liquids
+# Supporting Information for:  
 
 ### Authors
 - **Vinicius Piccoli**¹

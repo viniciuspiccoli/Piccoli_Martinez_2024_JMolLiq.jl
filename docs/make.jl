@@ -1,38 +1,45 @@
 import Pkg
 Pkg.add([
     "Documenter",
-    "Plots",
-    "MolSimToolkit",
-    "Unitful",
-    "EasyFit",
-    "Literate",
-    "PlutoStaticHTML",
+    "CRC32",
+    "PlutoSliderServer",
 ]
 )
-using Documenter
-using Plots
-using MolSimToolkit
-using Unitful
-using EasyFit
-using Literate
-using PlutoStaticHTML: build_notebooks, BuildOptions, documenter_output
 
-# Building markdown from Pluto notebooks
-#pluto_notebooks_dir = joinpath(@__DIR__, "src", "pluto_notebooks")
-#bopts = BuildOptions(
-#    pluto_notebooks_dir; 
-#    output_format=documenter_output, 
-#    previous_dir=pluto_notebooks_dir,
-#)
-#build_notebooks(bopts)
+using Documenter
+import PlutoSliderServer
+import CRC32
+
+
+# build html pages of the pluto notebooks, only if the jl was updated
+nbs = [
+    "$(@__DIR__)/src/pluto_notebooks/Systems_data.jl",
+    "$(@__DIR__)/src/pluto_notebooks/Supporting_curves.jl",
+]
+
+for nb in nbs
+    checksum_file = tempdir()*"/"*string(open(CRC32.crc32,nb))
+    if isfile(checksum_file)
+        println("Notebook $nb was not updated.")
+    else
+        PlutoSliderServer.export_notebook(nb)
+        open(checksum_file, "w") do io write(io, "") end
+    end
+end
 
 makedocs(
     sitename = "Piccoli_Martinez_2024_JMolLiq.jl",
     format=Documenter.HTML(;
         mathengine=Documenter.MathJax3(),
+        size_threshold_ignore=[
+            "$(@__DIR__)/Systems_data.md",
+            "$(@__DIR__)/Supporting_curves.md",
+        ],
     ),
     pages = [
-        "Home" => "index.md"
+        "Home" => "index.md",
+        "Complementary data" => "Systems_data.md",
+        "Supporting MDDFs and KBIs" => "Supporting_curves.md",
     ],
 )
 
@@ -45,16 +52,17 @@ deploydocs(
 
 
 
+
+
 #makedocs(
-#    sitename = "Piccoli_Martinez_2024_JMolLiq",
-#    format = Documenter.HTML(),
-#    modules = [Piccoli_Martinez_2024_JMolLiq]
+#    sitename = "Piccoli_Martinez_2024_JMolLiq.jl",
+#    format=Documenter.HTML(;
+#        mathengine=Documenter.MathJax3(),
+#    ),
+#    pages = [
+#        "Home" => "index.md"
+#    ],
 #)
 
 
-# Documenter can also automatically deploy documentation to gh-pages.
-# See "Hosting Documentation" and deploydocs() in the Documenter manual
-# for more information.
-#=deploydocs(
-    repo = "<repository url>"
-)=#
+

@@ -13,43 +13,6 @@ begin
 	TableOfContents()
 end
 
-# ╔═╡ 9ad736e2-779d-11ef-2680-fbb35aa93397
-md"""
-# Informations of the initial boxes
-"""
-
-# ╔═╡ 56878f0a-d52e-429e-89c7-d687d45fdbbc
-md"""
-
-**Table S1** - Data used to create 20 different replicates for each ionic liquid (IL) concentration simulation. The reference concentration (**RC**), given in mol/L, indicates the intended initial concentration for system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially started with a length of 95 Å. The table sequentially lists the number of cations (**Cation**), the first anion (**Anion 1**), the second anion (**Anion 2**), and water molecules (**Water**). For instance, in the system [EMIMCl]+[EMIMDCA], [Cl] is the anion 1, and [DCA] is the anion 2. Here, and in the other tables, the charges and underscores are omitted to simplify the representation.
-
-"""
-
-# ╔═╡ 6f9c5765-e771-4058-bfcc-4e8c3269672d
-begin
-	box_data = DataFrame(CSV.File("box_data.csv"))
-end
-
-# ╔═╡ 0d4bbdfc-8153-4e70-9182-aeeec066f342
-md"""
-
-**Table S** - Data of the bulk concentration of the components in the 20 different replicates for each ionic liquid (IL) concentration simulation. Values represent the mean value in the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the intended initial concentration for system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially started with a length of 95 Å. The table sequentially lists the number of cations (**Cation**), the first anion (**Anion 1**), the second anion (**Anion 2**), and water molecules (**Water**). For instance, in the system [EMIMCl]+[EMIMDCA], [Cl] is the anion 1, and [DCA] is the anion 2. Here, the charges and underscores are omitted to simplify the representation.
-
-"""
-
-# ╔═╡ 105a5d0f-2336-40a2-a7dd-e792a156a2be
-md"
-# Bulk concentration of the ions and water
-"
-
-# ╔═╡ 17bd7170-f2c8-41a1-9e64-11de3e51577e
-
-
-# ╔═╡ 186846b7-efb3-4ddb-ac91-a9302453fd63
-begin
-	conc_data = DataFrame(CSV.File("bulk_concentration_data.csv"))
-end
-
 # ╔═╡ ebffc62c-c33c-45ad-921e-e65b87b6d889
 md"
 # Minimum-distance distribution functions and Kirkwood-Buff integrals.
@@ -57,7 +20,7 @@ md"
 
 # ╔═╡ f2fa1b1a-4ce1-4a29-92db-d0993c13ca30
 begin
-	figs1 = Images.load("../Figures/Cl_BF4_MDDFS_KBIs.png")
+	figs1 = Images.load("Figures/Cl_BF4_MDDFS_KBIs.png")
 	figs1
 end
 
@@ -68,7 +31,7 @@ md"
 
 # ╔═╡ 23cde5c3-8452-4cbb-ac1a-b35544492512
 begin
-	figs2 = Images.load("../Figures/Cl_NO3_MDDFS_KBIs.png")
+	figs2 = Images.load("Figures/Cl_NO3_MDDFS_KBIs.png")
 	figs2
 end
 
@@ -79,7 +42,7 @@ md"
 
 # ╔═╡ 638e0eb2-1bc2-4bbb-99d9-416255251570
 begin
-	figs3 = Images.load("../Figures/DCA_BF4_MDDFS_KBIs.png")
+	figs3 = Images.load("Figures/DCA_BF4_MDDFS_KBIs.png")
 	figs3
 end
 
@@ -90,7 +53,7 @@ md"
 
 # ╔═╡ 116ed100-c1e6-4d40-810c-3256760d660c
 begin
-	figs4 = Images.load("../Figures/DCA_NO3_MDDFS_KBIs.png")
+	figs4 = Images.load("Figures/DCA_NO3_MDDFS_KBIs.png")
 	figs4
 end
 
@@ -101,7 +64,7 @@ md"
 
 # ╔═╡ 2ea9bf6a-4e0f-455a-aaf3-471e017eb368
 begin
-	figs5 = Images.load("../Figures/BF4_NO3_MDDFS_KBIs.png")
+	figs5 = Images.load("Figures/BF4_NO3_MDDFS_KBIs.png")
 	figs5
 end
 
@@ -117,7 +80,7 @@ md"
 
 # ╔═╡ 8192eca2-0e17-4c87-9273-6c12caa604f8
 begin
-	img = Images.load("../Figures/Figure_All_pref_sol-SI.png")
+	img = Images.load("Figures/Figure_All_pref_sol-SI.png")
 	img
 end
 
@@ -129,7 +92,7 @@ md"
 
 # ╔═╡ f8e4d668-9202-41c4-bf60-2e47fc329f50
 begin
-	img2 = Images.load("../Figures/Figure5_kb_SI.png")
+	img2 = Images.load("Figures/Figure5_kb_SI.png")
 	img2
 end
 
@@ -140,7 +103,7 @@ md"
 
 # ╔═╡ c4bbd1b7-8af7-416f-a064-c699aca58ca5
 begin
-	img3 = Images.load("../Figures/Figure_All_pref_sol-SI.png")
+	img3 = Images.load("Figures/Figure_All_pref_sol-SI.png")
 	img3
 end
 
@@ -159,13 +122,6 @@ md"""
 
 # ╔═╡ Cell order:
 # ╟─610696f3-76c7-4be5-a105-3ea22b3f212c
-# ╟─9ad736e2-779d-11ef-2680-fbb35aa93397
-# ╟─56878f0a-d52e-429e-89c7-d687d45fdbbc
-# ╟─6f9c5765-e771-4058-bfcc-4e8c3269672d
-# ╠═0d4bbdfc-8153-4e70-9182-aeeec066f342
-# ╟─105a5d0f-2336-40a2-a7dd-e792a156a2be
-# ╠═17bd7170-f2c8-41a1-9e64-11de3e51577e
-# ╠═186846b7-efb3-4ddb-ac91-a9302453fd63
 # ╟─ebffc62c-c33c-45ad-921e-e65b87b6d889
 # ╟─f2fa1b1a-4ce1-4a29-92db-d0993c13ca30
 # ╟─dc9b8701-437a-48c2-a510-7e03a14727ed
