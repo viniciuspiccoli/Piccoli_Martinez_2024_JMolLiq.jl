@@ -12,20 +12,20 @@ import CRC32
 
 
 # build html pages of the pluto notebooks, only if the jl was updated
-nbs = [
-    "$(@__DIR__)/src/plutonotebooks/SystemsData.jl",
-    "$(@__DIR__)/src/plutonotebooks/SupportingCurves.jl",
-]
+#nbs = [
+#    "$(@__DIR__)/src/plutonotebooks/SystemsData.jl",
+#    "$(@__DIR__)/src/plutonotebooks/SupportingCurves.jl",
+#]
 
-for nb in nbs
-    checksum_file = tempdir()*"/"*string(open(CRC32.crc32,nb))
-    if isfile(checksum_file)
-        println("Notebook $nb was not updated.")
-    else
-        PlutoSliderServer.export_notebook(nb)
-        open(checksum_file, "w") do io write(io, "") end
-    end
-end
+#for nb in nbs
+#    checksum_file = tempdir()*"/"*string(open(CRC32.crc32,nb))
+#    if isfile(checksum_file)
+#        println("Notebook $nb was not updated.")
+#    else
+#        PlutoSliderServer.export_notebook(nb)
+#        open(checksum_file, "w") do io write(io, "") end
+#    end
+#end
 
 makedocs(
     sitename = "Piccoli_Martinez_2024_JMolLiq.jl",
