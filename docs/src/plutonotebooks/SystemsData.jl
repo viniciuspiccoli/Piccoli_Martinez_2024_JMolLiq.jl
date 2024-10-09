@@ -9,20 +9,20 @@ begin
 	#import Pkg;
 	#Pkg.activate(".");
 	#Pkg.instantiate();
-	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables;
+	using DataFrames, LinearAlgebra, CSV, Statistics,  PDBTools, EasyFit, ComplexMixtures, LaTeXStrings, PlutoUI, Unitful, Printf, PrettyTables, Measurements;
 	import Images;
 	TableOfContents();
 end
 
 # ╔═╡ 9ad736e2-779d-11ef-2680-fbb35aa93397
 md"""
-# Informations of the initial boxes
+# Information on the Initial Boxes
 """
 
 # ╔═╡ 56878f0a-d52e-429e-89c7-d687d45fdbbc
 md"""
 
-**Table S1** - Data used to create 20 different replicates for each ionic liquid (IL) concentration simulation. The reference concentration (**RC**), given in mol/L, indicates the intended initial concentration for system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially started with a length of 95 Å. The table sequentially lists the number of cations (**Cation**), the anion (**Anion**), and water molecules (**Water**). Here, and in the other tables, the charges and underscores are omitted to simplify the representation.
+**Table S1** – Data used to generate 20 replicate simulations for each ionic liquid (IL) concentration. The reference concentration (**RC**), given in mol/L, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table sequentially lists the number of cations (**Cation**), anions (**Anion**), and water molecules (**Water**). Charges and underscores have been omitted in this and other tables to simplify the representation.
 
 """
 
@@ -33,12 +33,12 @@ end
 
 # ╔═╡ 0d4bbdfc-8153-4e70-9182-aeeec066f342
 md"""
-**Table S2** - Data of the bulk concentration of the components in the 20 different replicates for each ionic liquid (IL) concentration simulation. Values represent the mean value in the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the intended initial concentration for system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially started with a length of 95 Å. The table sequentially lists the number of cations (**Cation**), the first anion (**Anion**), and water molecules (**Water**). Here, the charges and underscores are omitted to simplify the representation.
+**Table S2** – Bulk concentration data for the components in 20 replicate simulations at each ionic liquid (IL) concentration. Values represent the mean across the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table lists the number of cations (**Cation**), the primary anion (**Anion**), and water molecules (**Water**). Charges and underscores are omitted here for simplicity.
 """
 
 # ╔═╡ 105a5d0f-2336-40a2-a7dd-e792a156a2be
 md"
-# Bulk concentration of the ions and water
+# Bulk Concentration of Ions and Water
 "
 
 # ╔═╡ 186846b7-efb3-4ddb-ac91-a9302453fd63
@@ -48,9 +48,8 @@ end
 
 # ╔═╡ 9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
 md"""
-## Notes:
-
-	This notebook contains data for creating the initial boxes and also the post-NPT concentrations of all components of the systems. We use the packages MolSimToolkit, PDBTools, DAtaFrames and CSV from Julia Lang. All the data is stored in CSV files and the Env contains a reproducible way to get the data by using the same versions apllied here.
+!!! info "Notes"
+	This notebook provides data for generating the initial simulation boxes and post-NPT equilibration concentrations for all system components. We utilize the MolSimToolkit, PDBTools, DataFrames, and CSV packages in Julia. All data is stored in CSV files, and the environment ensures reproducibility by using the same package versions applied here.	
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -63,6 +62,7 @@ EasyFit = "fde71243-0cda-4261-b7c7-4845bd106b21"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
 PDBTools = "e29189f1-7114-4dbd-93d0-c5673a921a58"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
@@ -77,6 +77,7 @@ DataFrames = "~1.7.0"
 EasyFit = "~0.6.8"
 Images = "~0.26.1"
 LaTeXStrings = "~1.3.1"
+Measurements = "~2.11.0"
 PDBTools = "~1.8.5"
 PlutoUI = "~0.7.60"
 PrettyTables = "~2.4.0"
@@ -90,7 +91,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.11.0"
 manifest_format = "2.0"
-project_hash = "d5309338b70a2a250b468cb84af63bca472e7b30"
+project_hash = "b3078b2ce0fbe491048359cab28fb7de0b5f4d06"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -213,6 +214,12 @@ deps = ["CodecZlib", "Dates", "FilePathsBase", "InlineStrings", "Mmap", "Parsers
 git-tree-sha1 = "6c834533dc1fabd820c1db03c839bf97e45a3fab"
 uuid = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 version = "0.10.14"
+
+[[deps.Calculus]]
+deps = ["LinearAlgebra"]
+git-tree-sha1 = "f641eb0a4f00c343bbc32346e1217b86f3ce9dad"
+uuid = "49dc2e85-a5d0-5ad3-a950-438e2897f1b9"
+version = "0.5.1"
 
 [[deps.CatIndices]]
 deps = ["CustomUnitRanges", "OffsetArrays"]
@@ -1005,6 +1012,26 @@ version = "1.11.0"
 deps = ["Artifacts", "Libdl"]
 uuid = "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
 version = "2.28.6+0"
+
+[[deps.Measurements]]
+deps = ["Calculus", "LinearAlgebra", "Printf", "Requires"]
+git-tree-sha1 = "bdcde8ec04ca84aef5b124a17684bf3b302de00e"
+uuid = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+version = "2.11.0"
+
+    [deps.Measurements.extensions]
+    MeasurementsBaseTypeExt = "BaseType"
+    MeasurementsJunoExt = "Juno"
+    MeasurementsRecipesBaseExt = "RecipesBase"
+    MeasurementsSpecialFunctionsExt = "SpecialFunctions"
+    MeasurementsUnitfulExt = "Unitful"
+
+    [deps.Measurements.weakdeps]
+    BaseType = "7fbed51b-1ef5-4d67-9085-a4a9b26f478c"
+    Juno = "e5e0dc1b-0480-54bc-9374-aad01c23163d"
+    RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+    SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+    Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [[deps.MetaGraphs]]
 deps = ["Graphs", "JLD2", "Random"]
