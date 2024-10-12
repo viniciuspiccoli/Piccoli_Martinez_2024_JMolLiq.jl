@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.46
+# v0.19.47
 
 using Markdown
 using InteractiveUtils
@@ -31,19 +31,34 @@ begin
 	box_data = DataFrame(CSV.File("Tables_data/box_data.csv"))
 end
 
+# ╔═╡ 359f8f3c-5b1c-41e1-89ab-8de0de93cfef
+md"
+# Bulk Concentration of Ions and Water
+"
+
 # ╔═╡ 0d4bbdfc-8153-4e70-9182-aeeec066f342
 md"""
 **Table S2** – Bulk concentration data for the components in 20 replicate simulations at each ionic liquid (IL) concentration. Values represent the mean across the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table lists the number of cations (**Cation**), the primary anion (**Anion**), and water molecules (**Water**). Charges and underscores are omitted here for simplicity.
 """
 
-# ╔═╡ 105a5d0f-2336-40a2-a7dd-e792a156a2be
-md"
-# Bulk Concentration of Ions and Water
-"
-
-# ╔═╡ 186846b7-efb3-4ddb-ac91-a9302453fd63
+# ╔═╡ c73c6e6a-c710-44f1-a3b4-8b9be4ecef2e
 begin
 	conc_data = DataFrame(CSV.File("Tables_data/bulk_concentration_data.csv"))
+end
+
+# ╔═╡ 4713f8d7-5030-46e1-b0a9-43999033e044
+md"
+# Preferential solvation and preferential hydration parameters.
+"
+
+# ╔═╡ 1f95aa7f-a5ef-4fcb-ad69-76095b4ab624
+md"""
+**Table S3** – Data on preferential solvation (**Γcp**) and preferential hydration (**Γwp**) parameters. The values presented correspond to the mean (with standard error) calculated from 20 independent simulations for each reference concentration (**RC**).
+"""
+
+# ╔═╡ 71238401-b0c5-44ed-8c8c-d7ad349d0069
+begin
+	pref_solv = DataFrame(CSV.File("Tables_data/data_pref.csv"))
 end
 
 # ╔═╡ 9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
@@ -1743,9 +1758,12 @@ version = "17.4.0+2"
 # ╟─9ad736e2-779d-11ef-2680-fbb35aa93397
 # ╟─56878f0a-d52e-429e-89c7-d687d45fdbbc
 # ╟─6f9c5765-e771-4058-bfcc-4e8c3269672d
+# ╟─359f8f3c-5b1c-41e1-89ab-8de0de93cfef
 # ╟─0d4bbdfc-8153-4e70-9182-aeeec066f342
-# ╟─105a5d0f-2336-40a2-a7dd-e792a156a2be
-# ╟─186846b7-efb3-4ddb-ac91-a9302453fd63
+# ╟─c73c6e6a-c710-44f1-a3b4-8b9be4ecef2e
+# ╟─4713f8d7-5030-46e1-b0a9-43999033e044
+# ╟─1f95aa7f-a5ef-4fcb-ad69-76095b4ab624
+# ╟─71238401-b0c5-44ed-8c8c-d7ad349d0069
 # ╟─9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
