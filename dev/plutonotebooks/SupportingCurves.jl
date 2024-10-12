@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.46
+# v0.19.47
 
 using Markdown
 using InteractiveUtils
@@ -104,6 +104,17 @@ md"""
 
 	In Pluto, there is **only one cell type**: a Julia cell. But you can use the Julia string macro `md"` to write Markdown inside of Julia! 🤯
 """
+
+# ╔═╡ 138d3d57-f4ff-47e1-a200-56aa9cb131d0
+begin
+	img_xx = Images.load("Figures/pref_hydration.png")
+	img_xx
+end
+
+# ╔═╡ 3f2c5b4b-630b-42cd-aa44-8eea9204065c
+md"
+**Figure SXX** - Comparison of Minimum-Distance Distribution Functions (MDDFs) and Kirkwood-Buff (KB) integrals for ionic liquid systems containing [EMIM]+ and [BMIM]+ cations with various anions. Panels A and D compare the cations [EMIM]+ and [BMIM]+; panels B and E compare [BF4]- anions paired with [EMIM]+ and [BMIM]+; and panels C and F compare [DCA]- anions paired with [EMIM]+ and [BMIM]+.
+"
 
 # ╔═╡ bafb435f-d477-4033-b393-48880dc5cbd0
 md"""
@@ -1795,11 +1806,13 @@ version = "17.4.0+2"
 # ╟─638e0eb2-1bc2-4bbb-99d9-416255251570
 # ╟─517fd90d-efaf-412a-8236-b5277a1b0a69
 # ╟─f7a323f0-a719-4618-9263-e7b371f558e6
-# ╠═7235ffb3-da4c-4a9a-bbe2-e705e8a3050f
-# ╠═c04e9302-1f3c-4617-821d-aa22978c16f2
+# ╟─7235ffb3-da4c-4a9a-bbe2-e705e8a3050f
+# ╟─c04e9302-1f3c-4617-821d-aa22978c16f2
 # ╟─a8640d76-8028-4a6e-a070-3082f4569bd9
 # ╟─33a1fa66-dcaa-4720-99c8-c589541ed525
 # ╟─624bdac5-b491-41f9-9f77-a0b83a101de0
+# ╟─138d3d57-f4ff-47e1-a200-56aa9cb131d0
+# ╟─3f2c5b4b-630b-42cd-aa44-8eea9204065c
 # ╟─bafb435f-d477-4033-b393-48880dc5cbd0
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
