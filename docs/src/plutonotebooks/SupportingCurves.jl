@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.47
+# v0.19.46
 
 using Markdown
 using InteractiveUtils
@@ -17,8 +17,6 @@ end
 # ╔═╡ ebffc62c-c33c-45ad-921e-e65b87b6d889
 md"
 # Minimum-distance distribution functions and Kirkwood-Buff integrals.
-
-under maintenance!!!!!
 "
 
 # ╔═╡ f2fa1b1a-4ce1-4a29-92db-d0993c13ca30
@@ -29,7 +27,7 @@ end
 
 # ╔═╡ dc9b8701-437a-48c2-a510-7e03a14727ed
 md"
-**Figure S1** - aniond MDDF with EMIM and BMIM.
+**Figure S1** - Minimum-distance distribution functions (MDDFs) for the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$  and $[\text{BMIM}]^{+}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
 "
 
 # ╔═╡ 23cde5c3-8452-4cbb-ac1a-b35544492512
@@ -40,7 +38,7 @@ end
 
 # ╔═╡ 30ec26c2-946c-4d0c-8df9-4830244d5a11
 md"
-**Figure S2** - aniond MDDF with EMIM and BMIM.
+**Figure S2** - Minimum-distance distribution functions (MDDFs) for the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$  and $[\text{BMIM}]^{+}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
 "
 
 # ╔═╡ ca80155f-f014-4b7d-b9a2-c1558e9201df
@@ -51,7 +49,10 @@ end
 
 # ╔═╡ 78d62d51-272c-4c67-8f91-65011f3257c3
 md"
-**Figure S3** - XXXXX"
+**Figure S3** -  Minimum-distance distribution functions (MDDFs) for the cations simulated paired with the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
+
+"
 
 # ╔═╡ 638e0eb2-1bc2-4bbb-99d9-416255251570
 begin
@@ -61,7 +62,8 @@ end
 
 # ╔═╡ 517fd90d-efaf-412a-8236-b5277a1b0a69
 md"
-**Figure S4** - Comparison of Minimum-Distance Distribution Functions (MDDFs) and Kirkwood-Buff (KB) integrals for ionic liquid systems containing [EMIM]+ and [BMIM]+ cations with various anions. Panels A and D compare the cations [EMIM]+ and [BMIM]+; panels B and E compare [BF4]- anions paired with [EMIM]+ and [BMIM]+; and panels C and F compare [DCA]- anions paired with [EMIM]+ and [BMIM]+.
+**Figure S4** - Minimum-distance distribution functions (MDDFs) for the cations paired with the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
 "
 
 # ╔═╡ f7a323f0-a719-4618-9263-e7b371f558e6
@@ -86,10 +88,7 @@ end
 
 # ╔═╡ a8640d76-8028-4a6e-a070-3082f4569bd9
 md"
-**Figure S5** - red regions - BMIM //  Blue regions - EMIM
-
-Red indicates that the cation density of solution 2 ([BMIM]+) is greater than that of solution 1 ([EMIM]+), and blue that the density of solution 1 is greater than that of solution 2
-
+**Figure S5** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{DCA}]^{-}$$.
 "
 
 # ╔═╡ 94559bde-2235-420a-af13-b994fad498e2
@@ -101,9 +100,7 @@ end
 
 # ╔═╡ b403a4fb-a13a-4379-afc6-fb2623727a69
 md"
-**Figure S6** - red regions - BMIM //  Blue regions - EMIM
-
-Red indicates that the cation density of solution 2 ([BMIM]+) is greater than that of solution 1 ([EMIM]+), and blue that the density of solution 1 is greater than that of solution 2
+**Figure S6** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{Cl}]^{-}$$.
 
 "
 
@@ -116,9 +113,7 @@ end
 
 # ╔═╡ 95a06115-dff4-4c99-bf9e-fab68f8a2fdf
 md"
-**Figure S7** - red regions - BMIM //  Blue regions - EMIM
-
-Red indicates that the cation density of solution 2 ([BMIM]+) is greater than that of solution 1 ([EMIM]+), and blue that the density of solution 1 is greater than that of solution 2
+**Figure S7** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{BF}_{4}]^{-}$$.
 
 "
 
@@ -131,9 +126,7 @@ end
 
 # ╔═╡ 981e78a0-2959-472c-aef9-003c9fff328f
 md"
-**Figure S8** - red regions - BMIM //  Blue regions - EMIM
-
-Red indicates that the cation density of solution 2 ([BMIM]+) is greater than that of solution 1 ([EMIM]+), and blue that the density of solution 1 is greater than that of solution 2
+**Figure S8** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{NO}_{3}]^{-}$$.
 
 "
 
@@ -181,6 +174,58 @@ end
 Neat!
 """
 
+# ╔═╡ f581511b-717e-4e7a-98d4-1884ebeda2c2
+md"
+# Analyses of Coordination number in the bulk solution.
+"
+
+# ╔═╡ bddf9ef0-a97a-40e5-ac2c-8c8dc4e70d03
+md"""
+!!! info "Coordination Number Calculation"
+	Here, the calculations were perfomed using the function **bulk_coordination()** avaiable in the package MolSimToolkit.jl. It computes the coordination number of one type of solvent moleculecule relative to another solvent molecule, as a function of the distance to a reference solute molecule.
+"""
+
+# ╔═╡ 47680265-7549-42ae-8640-92f11a90a953
+md"
+AQUI EU COLOCO UM GRÄFICO DE #EXEMPLO E EXPLICO O QUE ESTOU CALCULADO.
+"
+
+# ╔═╡ b1f11b33-7fa9-44fb-8a0a-58885b87abe6
+begin
+	img_CN1 = Images.load("Figures/CN_anion_water.png")
+	img_CN1
+	plot(heatmap(img_CN1, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ 6a3d81c1-5c66-43d4-9522-c1e27846d944
+md"
+**Figure S10** - Water coordination number around anions in different concentration of IL solutions.
+"
+
+# ╔═╡ 45942a4a-2143-47a9-a1b6-171e7f65ee72
+begin
+	img_CN2 = Images.load("Figures/DCA_BF4_ion-ion_ion-water.png")
+	img_CN2
+	plot(heatmap(img_CN2, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ 62f462b1-4b14-4366-842f-55d9a911aa43
+md"
+**Figure S11** - Coordination number of the cation with respect of the cations in ssytems with A) $$[\textrm{BF}_{4}]^{-}$$ and B) $$[\textrm{DCA}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{BF}_{4}]^{-}$$ and D) $$[\textrm{DCA}]^{-}$$ in different concentration of IL solutions.
+"
+
+# ╔═╡ f84ecd14-22d1-4c34-bda6-67b72453ba34
+begin
+	img_CN3 = Images.load("Figures/NO3_Cl_ion-ion_ion-water.png")
+	img_CN3
+	plot(heatmap(img_CN3, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ 54cf7f5b-b61a-4ab0-934c-e5a897651868
+md"
+**Figure S12** - Coordination number of the cation with respect of the cations in ssytems with A) $$[\textrm{NO}_{3}]^{-}$$ and B) $$[\textrm{Cl}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{NO}_{3}]^{-}$$ and D) $$[\textrm{Cl}]^{-}$$ in different concentration of IL solutions.
+"
+
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
 [deps]
@@ -218,7 +263,7 @@ Unitful = "~1.21.0"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.0"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "0b0d751f1bbe3ebcdf03479e710a9a33a065ccd6"
 
@@ -2508,8 +2553,17 @@ version = "1.4.1+1"
 # ╟─981e78a0-2959-472c-aef9-003c9fff328f
 # ╟─33a1fa66-dcaa-4720-99c8-c589541ed525
 # ╟─624bdac5-b491-41f9-9f77-a0b83a101de0
-# ╟─138d3d57-f4ff-47e1-a200-56aa9cb131d0
+# ╠═138d3d57-f4ff-47e1-a200-56aa9cb131d0
 # ╟─3f2c5b4b-630b-42cd-aa44-8eea9204065c
 # ╟─bafb435f-d477-4033-b393-48880dc5cbd0
+# ╟─f581511b-717e-4e7a-98d4-1884ebeda2c2
+# ╟─bddf9ef0-a97a-40e5-ac2c-8c8dc4e70d03
+# ╠═47680265-7549-42ae-8640-92f11a90a953
+# ╟─b1f11b33-7fa9-44fb-8a0a-58885b87abe6
+# ╟─6a3d81c1-5c66-43d4-9522-c1e27846d944
+# ╟─45942a4a-2143-47a9-a1b6-171e7f65ee72
+# ╟─62f462b1-4b14-4366-842f-55d9a911aa43
+# ╟─f84ecd14-22d1-4c34-bda6-67b72453ba34
+# ╟─54cf7f5b-b61a-4ab0-934c-e5a897651868
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

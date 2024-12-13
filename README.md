@@ -2,7 +2,8 @@
 [![Coverage](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl)
 
 
-# Supporting Information for: Role of Imidazolium Cation Hydrophobicity in Ubiquitin Solvation by Aqueous Ionic Liquids
+# Supporting Information for: Reversal of Protein Preferential Solvation by Ionic Liquids: Alkyl Chain Length and Concentration Effects.
+
 
 ## Authors
 - **Vinicius Piccoli**¹
