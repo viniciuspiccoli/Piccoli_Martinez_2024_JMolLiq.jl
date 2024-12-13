@@ -27,7 +27,7 @@ end
 
 # ╔═╡ dc9b8701-437a-48c2-a510-7e03a14727ed
 md"
-**Figure S1** - Minimum-distance distribution functions (MDDFs) for the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$  and $[\text{BMIM}]^{+}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+**Figure S1** – Minimum-distance distribution functions (MDDFs) for the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$. The panels show the MDDFs of anions at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
 "
 
 # ╔═╡ 23cde5c3-8452-4cbb-ac1a-b35544492512
@@ -38,7 +38,9 @@ end
 
 # ╔═╡ 30ec26c2-946c-4d0c-8df9-4830244d5a11
 md"
-**Figure S2** - Minimum-distance distribution functions (MDDFs) for the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$  and $[\text{BMIM}]^{+}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
+**Figure S2** – Minimum-distance distribution functions (MDDFs) for the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$. The panels show the MDDFs of anions at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
 "
 
 # ╔═╡ ca80155f-f014-4b7d-b9a2-c1558e9201df
@@ -49,7 +51,10 @@ end
 
 # ╔═╡ 78d62d51-272c-4c67-8f91-65011f3257c3
 md"
-**Figure S3** -  Minimum-distance distribution functions (MDDFs) for the cations simulated paired with the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
+
+**Figure S3** – Minimum-distance distribution functions (MDDFs) for the cations paired with the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$. The panels show the MDDFs of cations at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
 
 
 "
@@ -62,7 +67,9 @@ end
 
 # ╔═╡ 517fd90d-efaf-412a-8236-b5277a1b0a69
 md"
-**Figure S4** - Minimum-distance distribution functions (MDDFs) for the cations paired with the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$. The panels display the MDDFs of anions at all reference concentrations (in units of $\mathrm{mol\ L^{-1}} $) simulated for the IL systems:A) $[\text{EMIM}][\text{Cl}]$, B) $[\text{EMIM}][\text{DCA}]$, C) $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
+**Figure S4** – Minimum-distance distribution functions (MDDFs) for the cations paired with the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$. The panels show the MDDFs of cations at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$. Each curve represents the mean value calculated from 20 independent simulations.
+
 
 "
 
@@ -88,7 +95,7 @@ end
 
 # ╔═╡ a8640d76-8028-4a6e-a070-3082f4569bd9
 md"
-**Figure S5** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{DCA}]^{-}$$.
+**Figure S5** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{DCA}]^{-}$.
 "
 
 # ╔═╡ 94559bde-2235-420a-af13-b994fad498e2
@@ -100,8 +107,7 @@ end
 
 # ╔═╡ b403a4fb-a13a-4379-afc6-fb2623727a69
 md"
-**Figure S6** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{Cl}]^{-}$$.
-
+**Figure S6** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{Cl}]^{-}$.
 "
 
 # ╔═╡ 12738938-6b8d-4def-85d1-ba8e67be102f
@@ -113,7 +119,7 @@ end
 
 # ╔═╡ 95a06115-dff4-4c99-bf9e-fab68f8a2fdf
 md"
-**Figure S7** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{BF}_{4}]^{-}$$.
+**Figure S7** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{BF}_{4}]^{-}$.
 
 "
 
@@ -126,8 +132,7 @@ end
 
 # ╔═╡ 981e78a0-2959-472c-aef9-003c9fff328f
 md"
-**Figure S8** - Density difference map of system component with the cation [BMIM]⁺ versus [EMIM]⁺ within 3.5 Å from the protein surface, where red indicates a greater density of a solvent component in a system with the cation [BMIM]⁺, and blue indicates a higher density with [EMIM]⁺. The maps displays density differences with ~1.0 $$\textrm{mol L}^{-1}$$ of IL solutions with the anion $$[\textrm{NO}_{3}]^{-}$$.
-
+**Figure S8** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{NO}_{3}]^{-}$.
 "
 
 # ╔═╡ 33a1fa66-dcaa-4720-99c8-c589541ed525
@@ -152,27 +157,8 @@ end
 
 # ╔═╡ 3f2c5b4b-630b-42cd-aa44-8eea9204065c
 md"
-**Figure S9** - Comparison of Minimum-Distance Distribution Functions (MDDFs) and Kirkwood-Buff (KB) integrals for ionic liquid systems containing [EMIM]+ and [BMIM]+ cations with various anions. Panels A and D compare the cations [EMIM]+ and [BMIM]+; panels B and E compare [BF4]- anions paired with [EMIM]+ and [BMIM]+; and panels C and F compare [DCA]- anions paired with [EMIM]+ and [BMIM]+.
+**Figure S9** – Comparison of Minimum-Distance Distribution Functions (MDDFs) and Kirkwood-Buff (KB) integrals for ionic liquid systems containing [EMIM]⁺ and [BMIM]⁺ cations with various anions. Panels **A** and **D** compare the cations [EMIM]⁺ and [BMIM]⁺; panels **B** and **E** compare [BF₄]⁻ anions paired with [EMIM]⁺ and [BMIM]⁺; and panels **C** and **F** compare [DCA]⁻ anions paired with [EMIM]⁺ and [BMIM]⁺.
 "
-
-# ╔═╡ bafb435f-d477-4033-b393-48880dc5cbd0
-md"""
-For longer pieces of code, you can use three ticks:
-
-```
-x = 1
-```
-
-If you're writing code in a specific language, you can also specify it to get nice formatting:
-
-```julia
-function square(x)
-	x^2
-end
-```
-
-Neat!
-"""
 
 # ╔═╡ f581511b-717e-4e7a-98d4-1884ebeda2c2
 md"
@@ -182,13 +168,10 @@ md"
 # ╔═╡ bddf9ef0-a97a-40e5-ac2c-8c8dc4e70d03
 md"""
 !!! info "Coordination Number Calculation"
-	Here, the calculations were perfomed using the function **bulk_coordination()** avaiable in the package MolSimToolkit.jl. It computes the coordination number of one type of solvent moleculecule relative to another solvent molecule, as a function of the distance to a reference solute molecule.
-"""
+	Here, the calculations were performed using the function **bulk_coordination()** available in the package MolSimToolkit.jl. It computes the coordination number of one type of solvent molecule relative to another solvent molecule, as a function of the distance to a reference solute molecule.
 
-# ╔═╡ 47680265-7549-42ae-8640-92f11a90a953
-md"
-AQUI EU COLOCO UM GRÄFICO DE #EXEMPLO E EXPLICO O QUE ESTOU CALCULADO.
-"
+	For example, imagine a protein solvated in water and glycerol. This function allows for the computation of the number of water molecules within a given distance of the glycerol molecules, as a function of the distance to the protein. In other words, it calculates the coordination number of water relative to glycerol, as a function of the distance to the protein. The same strategy is applied to the IL ions in this study. Effectively, the maximum distance to the solute considered for a solvent molecule to be coordinated is set to 5 Å.
+"""
 
 # ╔═╡ b1f11b33-7fa9-44fb-8a0a-58885b87abe6
 begin
@@ -199,7 +182,7 @@ end
 
 # ╔═╡ 6a3d81c1-5c66-43d4-9522-c1e27846d944
 md"
-**Figure S10** - Water coordination number around anions in different concentration of IL solutions.
+**Figure S10** – Water coordination number around anions in different concentrations of IL solutions.
 "
 
 # ╔═╡ 45942a4a-2143-47a9-a1b6-171e7f65ee72
@@ -211,7 +194,7 @@ end
 
 # ╔═╡ 62f462b1-4b14-4366-842f-55d9a911aa43
 md"
-**Figure S11** - Coordination number of the cation with respect of the cations in ssytems with A) $$[\textrm{BF}_{4}]^{-}$$ and B) $$[\textrm{DCA}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{BF}_{4}]^{-}$$ and D) $$[\textrm{DCA}]^{-}$$ in different concentration of IL solutions.
+**Figure S11** – Coordination number of the cation concerning the cations in systems with A) $$[\textrm{BF}_{4}]^{-}$$ and B) $$[\textrm{DCA}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{BF}_{4}]^{-}$$ and D) $$[\textrm{DCA}]^{-}$$ at different concentrations of IL solutions.
 "
 
 # ╔═╡ f84ecd14-22d1-4c34-bda6-67b72453ba34
@@ -223,7 +206,7 @@ end
 
 # ╔═╡ 54cf7f5b-b61a-4ab0-934c-e5a897651868
 md"
-**Figure S12** - Coordination number of the cation with respect of the cations in ssytems with A) $$[\textrm{NO}_{3}]^{-}$$ and B) $$[\textrm{Cl}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{NO}_{3}]^{-}$$ and D) $$[\textrm{Cl}]^{-}$$ in different concentration of IL solutions.
+**Figure S12** – Coordination number of the cation with respect to the cations in systems with A) $$[\textrm{NO}_{3}]^{-}$$ and B) $$[\textrm{Cl}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{NO}_{3}]^{-}$$ and D) $$[\textrm{Cl}]^{-}$$ at different concentrations of IL solutions.
 "
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -2553,12 +2536,10 @@ version = "1.4.1+1"
 # ╟─981e78a0-2959-472c-aef9-003c9fff328f
 # ╟─33a1fa66-dcaa-4720-99c8-c589541ed525
 # ╟─624bdac5-b491-41f9-9f77-a0b83a101de0
-# ╠═138d3d57-f4ff-47e1-a200-56aa9cb131d0
+# ╟─138d3d57-f4ff-47e1-a200-56aa9cb131d0
 # ╟─3f2c5b4b-630b-42cd-aa44-8eea9204065c
-# ╟─bafb435f-d477-4033-b393-48880dc5cbd0
 # ╟─f581511b-717e-4e7a-98d4-1884ebeda2c2
 # ╟─bddf9ef0-a97a-40e5-ac2c-8c8dc4e70d03
-# ╠═47680265-7549-42ae-8640-92f11a90a953
 # ╟─b1f11b33-7fa9-44fb-8a0a-58885b87abe6
 # ╟─6a3d81c1-5c66-43d4-9522-c1e27846d944
 # ╟─45942a4a-2143-47a9-a1b6-171e7f65ee72
