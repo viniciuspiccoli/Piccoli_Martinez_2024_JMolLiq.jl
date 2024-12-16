@@ -28,7 +28,7 @@ import CRC32
 #end
 
 makedocs(
-    sitename = "Piccoli_Martinez_2024_JMolLiq.jl",
+    sitename = "Piccoli_Martinez_2025.jl",
     format=Documenter.HTML(;
         mathengine=Documenter.MathJax3(),
         size_threshold_ignore=[
@@ -44,7 +44,7 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl.git",
+    repo = "github.com/viniciuspiccoli/Piccoli_Martinez_2025.jl.git",
     target = "build",
     branch = "gh-pages",
     versions = ["stable" => "v^", "v#.#"],

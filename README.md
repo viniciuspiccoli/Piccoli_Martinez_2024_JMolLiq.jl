@@ -1,5 +1,5 @@
-[![Build Status](https://github.com/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl)
+[![Build Status](https://github.com/viniciuspiccoli/Piccoli_Martinez_2025.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/viniciuspiccoli/Piccoli_Martinez_2025.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2025.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2025.jl)
 
 
 # Supporting Information for: Reversal of Protein Preferential Solvation by Ionic Liquids: Alkyl Chain Length and Concentration Effects.
@@ -19,4 +19,4 @@ Institute of Chemistry, Universidade Estadual de Campinas (UNICAMP).
 [Group Website](http://m3g.iqm.unicamp.br)
 
 
-Documentation at [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2024_JMolLiq.jl/dev/)
+Documentation at [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2025.jl/dev/)
